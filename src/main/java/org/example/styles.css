@@ -1,0 +1,42 @@
+/* Increase font size for all elements */
+* {
+    -fx-font-size: 30px;
+    text-align:center;
+    background-color:black;
+}
+
+/* Change Button styles */
+.button {
+    -fx-background-color: yellow; /* Yellow */
+    -fx-text-fill: black;
+    -fx-padding: 15 30;
+    -fx-background-radius: 5;
+}
+
+.button:hover {
+    -fx-background-color: #ffcc00; /* Darker Yellow */
+}
+
+/* Change LineChart background color */
+.chart-plot-background {
+    -fx-background-color: #007bff; /* Blue */
+}
+
+.chart-horizontal-grid-lines {
+    -fx-stroke: #ccc;
+}
+
+.chart-vertical-grid-lines {
+    -fx-stroke: #ccc;
+}
+
+.chart-series-line {
+    -fx-stroke: #007bff; /* Blue */
+    -fx-stroke-width: 2;
+}
+
+.chart-symbol {
+    -fx-background-color: #007bff; /* Blue */
+    -fx-background-radius: 5;
+    -fx-padding: 5;
+}
